@@ -5,7 +5,7 @@ if (! defined ( 'SRCP' )) {
 if (!empty($_POST['registro']))
     {
            $query = "
-            SELECT 1
+            SELECT *
             FROM usuarios
             WHERE correo = :correo
         ";
@@ -25,7 +25,7 @@ if (!empty($_POST['registro']))
 				</div>
 				<div class='modal-body'>
 			 
-					<p>Para registrarse previamente debe haber tenido una cita</p>
+					<p>Para registrarse previamente debe haber tenido una cita1</p>
 				</div>
 				<div class='modal-footer'>
 				<button type='button' class='btn btn-info' data-dismiss='modal'>¡Entiendo!</button>
@@ -46,7 +46,7 @@ if (!empty($_POST['registro']))
 				</div>
 				<div class='modal-body'>
 			 
-					<p>Para registrarse previamente debe haber tenido una cita</p>
+					<p>Para registrarse previamente debe haber tenido una cita2</p>
 				</div>
 				<div class='modal-footer'>
 				<button type='button' class='btn btn-info' data-dismiss='modal'>¡Entiendo!</button>
@@ -67,7 +67,9 @@ if (!empty($_POST['registro']))
                 password,
                 salt,
                 cedula,
-                nivel
+                nivel,
+                cookie,
+                logueado
             ) VALUES (
                 :nombre,
                 :apellido,
@@ -77,7 +79,10 @@ if (!empty($_POST['registro']))
                 :password,
                 :salt,
                 :cedula,
-                :nivel
+                :nivel,
+                :cookie,
+                :logueado
+
             )
         ";
         $salt = str_replace('=', '.', base64_encode(random_bytes(20)));
@@ -94,7 +99,9 @@ if (!empty($_POST['registro']))
             ':password' => $password,
             ':salt' => $salt,
 			':cedula' => $_POST['cedula'],
-            ':nivel' => $nivel
+            ':nivel' => $nivel,
+            ':cookie'=>0,
+            ':logueado'=>"NO"
         );
         try {
             $stmt = $db->prepare($query);
@@ -111,7 +118,7 @@ if (!empty($_POST['registro']))
 				</div>
 				<div class='modal-body'>
 			 
-					<p>Para registrarse previamente debe haber tenido una cita</p>
+					<p>Para registrarse previamente debe haber tenido una cita3".$ex->getMessage().$cookie."</p>
 				</div>
 				<div class='modal-footer'>
 				<button type='button' class='btn btn-info' data-dismiss='modal'>¡Entiendo!</button>
