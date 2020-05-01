@@ -139,7 +139,7 @@ $query = "  SELECT    cedula,
                                                             <tr>
                                                                 <td align="right">Telefono :</td>
                                                                 <td align="left">
-                                                                    <input type="text" id="telefono" name="telefono" value="<?php echo $row['telefono'];   ?>" class="txtBox bfh-phone" data-format="+58 (dddd) ddd-dddd"> </td>
+                                                                    <input type="text" id="telefono" name="telefono" value="<?php echo $row['telefono'];   ?>" class="txtBox bfh-phone" data-format="+593 (dddd) ddd-dddd"> </td>
                                                                 <td align="left"><span id="msg_telefono"></span>&nbsp;</td>
                                                             </tr>
                                                             <tr>
@@ -164,7 +164,7 @@ $query = "  SELECT    cedula,
                                                             <tr>
                                                                 <td align="right">Rif - Seniat de la empresa:</td>
                                                                 <td align="left">
-                                                                    <input type="text" id="aseguradora_rif" name="aseguradora_rif" value="<?php echo $row['aseguradora_rif'];   ?>" class="txtBox bfh-phone" data-format="J-dddddddd"> </td>
+                                                                    <input type="text" id="aseguradora_rif" name="aseguradora_rif" value="<?php echo $row['aseguradora_rif'];   ?>" class="txtBox bfh-phone" data-format="dddddddd"> </td>
                                                                 <td align="left"><span id="msg_rif"></span>&nbsp;</td>
                                                             </tr>
                                                             <tr>

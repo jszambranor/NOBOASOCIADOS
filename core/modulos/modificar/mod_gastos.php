@@ -112,7 +112,7 @@ monto,
                                                             </tr>
                                                             
                                                             <tr>
-                                                                <td align="right">Monto en Bolivares:</td>
+                                                                <td align="right">Monto en Dolares:</td>
                                                                 <td align="left">
                                                                     <input type="text" id="monto" onKeyPress="return SoloNumeros(event);" name="monto" value="<?php echo $row['monto'];?>" class="txtBox"> </td>
                                                                 <td align="left"><span id="msg_nombre"></span>&nbsp;</td>
@@ -182,7 +182,7 @@ monto,
                                                         <tr>
                                                             <td align="right">Telefono :</td>
                                                             <td align="left">
-                                                                <input type="text" id="telefono" name="telefono" value="" class="txtBox bfh-phone" data-format="+58 (dddd) ddd-dddd"> </td>
+                                                                <input type="text" id="telefono" name="telefono" value="" class="txtBox bfh-phone" data-format="+593 (dddd) ddd-dddd"> </td>
                                                             <td align="left"><span id="msg_telefono"></span>&nbsp;</td>
                                                         </tr>
                                                         <tr>

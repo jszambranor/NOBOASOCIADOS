@@ -211,7 +211,7 @@ switch ($_GET['do']) {
 	
 	
 	
-	//M	ODIFICACIONES        
+	//MODIFICACIONES        
 	case 'modaseguradora' :
 	if ($login_ok) {
 		
@@ -329,7 +329,7 @@ switch ($_GET['do']) {
 	
 	
 	
-	//L	ISTAS   
+	//LISTAS   
 	case 'listaaseguradora' :
 	if ($login_ok) {
 		

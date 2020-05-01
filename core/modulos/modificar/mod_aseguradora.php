@@ -114,7 +114,7 @@ $query = "  SELECT  rif,
                                                             <tr>
                                                                 <td align="right">Rif - Seniat :</td>
                                                                 <td align="left">
-                                                                    <input type="text" id="rif" name="rif" value="<?php echo $row['rif'];   ?>" class="txtBox bfh-phone" data-format="J-dddddddd"> </td>
+                                                                    <input type="text" id="rif" name="rif" value="<?php echo $row['rif'];   ?>" class="txtBox bfh-phone" data-format=" "> </td>
                                                                 <td align="left"><span id="msg_rif"></span>&nbsp;</td>
                                                             </tr>
                                                             <tr>
@@ -128,7 +128,7 @@ $query = "  SELECT  rif,
                                                             <tr>
                                                                 <td align="right">Estado de origen: :</td>
                                                                 <td align="left">
-                                                                    <select id="estado" name="estado" value="<?php echo $row['estado'];   ?>" class="form-control bfh-states" data-country="VE" data-state="<?php echo $row['estado'];   ?>"></select>
+                                                                    <select id="estado" name="estado" value="<?php echo $row['estado'];   ?>" class="form-control bfh-states" data-country="EC" data-state="<?php echo $row['estado'];   ?>"></select>
                                                                 </td>
                                                                 <td align="left"><span id="msg_estatus"></span>&nbsp;</td>
                                                             </tr>
@@ -159,7 +159,7 @@ $query = "  SELECT  rif,
                                                             <tr>
                                                                 <td align="right">Rif de cuenta bancaria :</td>
                                                                 <td align="left">
-                                                                    <input type="text" id="cedulacuentabancaria" name="cedulacuentabancaria" value="<?php echo $row['cedulacuentabancaria'];   ?>" class="txtBox bfh-phone" data-format="J-dddddddd"> </td>
+                                                                    <input type="text" id="cedulacuentabancaria" name="cedulacuentabancaria" value="<?php echo $row['cedulacuentabancaria'];   ?>" class="txtBox bfh-phone" data-format=" "> </td>
                                                                 <td align="left"><span id="msg_cedulacuentabancaria"></span>&nbsp;</td>
                                                             </tr>
                                                         </table>
@@ -176,13 +176,13 @@ $query = "  SELECT  rif,
                                                             <tr>
                                                                 <td align="right">Telefono local:</td>
                                                                 <td align="left">
-                                                                    <input type="text" id="telefonolocal" name="telefonolocal" value="<?php echo $row['telefonolocal'];   ?>" class="txtBox bfh-phone" data-format="+58 (dddd) ddd-dddd"> </td>
+                                                                    <input type="text" id="telefonolocal" name="telefonolocal" value="<?php echo $row['telefonolocal'];   ?>" class="txtBox bfh-phone" data-format="+593 (dddd) ddd-dddd"> </td>
                                                                 <td align="left"><span id="msg_telefonolocal"></span>&nbsp;</td>
                                                             </tr>
                                                             <tr>
                                                                 <td align="right">Telefono personal:</td>
                                                                 <td align="left">
-                                                                    <input type="text" id="telefonopersonal" name="telefonopersonal" value="<?php echo $row['telefonopersonal'];   ?>" class="txtBox bfh-phone" data-format="+58 (dddd) ddd-dddd"> </td>
+                                                                    <input type="text" id="telefonopersonal" name="telefonopersonal" value="<?php echo $row['telefonopersonal'];   ?>" class="txtBox bfh-phone" data-format="+593 (dddd) ddd-dddd"> </td>
                                                                 <td align="left"><span id="msg_telefonopersonal"></span>&nbsp;</td>
                                                             </tr>
                                                             <tr>

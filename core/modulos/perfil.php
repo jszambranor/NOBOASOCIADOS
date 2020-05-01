@@ -85,7 +85,6 @@ $data = getDataBySession($_COOKIE["session"],$db);
                                             <div class="profile-social-links align-center">
                                                 <a href="#" class="tooltip-info" title="" data-original-title="Facebook"> <i class="middle ace-icon fa fa-facebook-square fa-2x blue"></i> </a>
                                                 <a href="#" class="tooltip-info" title="" data-original-title="Twitter"> <i class="middle ace-icon fa fa-twitter-square fa-2x light-blue"></i> </a>
-                                                <a href="#" class="tooltip-error" title="" data-original-title="Pinterest"> <i class="middle ace-icon fa fa-pinterest-square fa-2x red"></i> </a>
                                             </div>
                                         </div>
                                     </div>
@@ -214,7 +213,7 @@ $data = getDataBySession($_COOKIE["session"],$db);
             <div class="footer">
                 <div class="footer-inner">
                     <div class="footer-content"> <span class="bigger-120">
-							<span class="blue bolder">Sistema</span> &copy; 2013-2014 </span> &nbsp; &nbsp; <span class="action-buttons">
+							<span class="blue bolder">Sistema</span> &copy; 2020-2021 </span> &nbsp; &nbsp; <span class="action-buttons">
 							<a href="#">
 								<i class="ace-icon fa fa-twitter-square light-blue bigger-150"></i>
 							</a>
