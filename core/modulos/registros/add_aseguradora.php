@@ -180,7 +180,7 @@
 													<tr>
 														<td align="right">Telefono local:</td>
 														<td align="left">
-															<input type="text" id="telefonolocal" name="telefonolocal" value="" class="txtBox bfh-phone" data-format="+58 (dddd) ddd-dddd">
+															<input type="text" id="telefonolocal" name="telefonolocal" value="" class="txtBox bfh-phone" data-format="+593 (dddd) ddd-dddd">
 														</td>
 														<td align="left"><span id="msg_telefonolocal"></span>&nbsp;</td>
 													</tr>
@@ -188,7 +188,7 @@
                                                     <tr>
 														<td align="right">Telefono personal:</td>
 														<td align="left">
-															<input type="text" id="telefonopersonal" name="telefonopersonal" value="" class="txtBox bfh-phone" data-format="+58 (dddd) ddd-dddd">
+															<input type="text" id="telefonopersonal" name="telefonopersonal" value="" class="txtBox bfh-phone" data-format="+593 (dddd) ddd-dddd">
 														</td>
 														<td align="left"><span id="msg_telefonopersonal"></span>&nbsp;</td>
 													</tr>
