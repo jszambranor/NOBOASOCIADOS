@@ -89,7 +89,7 @@
                                                     <tr>
 														<td align="right">Rif - Seniat :</td>
 														<td align="left">
-															<input type="text" id="rif" name="rif" value="" onKeyPress="return SoloNumeros(event);" class="txtBox bfh-phone" data-format="J-dddddddd">
+															<input type="text" id="rif" name="rif" value="" onKeyPress="return SoloNumeros(event);" class="txtBox bfh-phone" data-format="-dddddddd">
 														</td>
 														<td align="left"><span id="msg_rif"></span>&nbsp;</td>
 													</tr>											 
@@ -107,7 +107,7 @@
                                                     <tr>
 														<td align="right">Estado - ciudad de origen:</td>
 														<td align="left">
-															<select id="estado" name="estado" value="" class="form-control bfh-states" data-country="EC" data-state="LA"></select>
+															<select id="estado" name="estado" value="" class="form-control bfh-states" data-country="EC" data-state="GYE"></select>
 														</td>
 														<td align="left"><span id="msg_estado"></span>&nbsp;</td>
 													</tr>
@@ -145,7 +145,7 @@
                                                     <tr>
 														<td align="right">Rif de cuenta bancaria  :</td>
 														<td align="left">
-															<input type="text" id="cedulacuentabancaria" name="cedulacuentabancaria" value="" class="txtBox bfh-phone" data-format="J-dddddddd">
+															<input type="text" id="cedulacuentabancaria" name="cedulacuentabancaria" value="" class="txtBox bfh-phone" data-format="-dddddddd">
 														</td>
 														<td align="left"><span id="msg_cedulacuentabancaria"></span>&nbsp;</td>
 													</tr>
