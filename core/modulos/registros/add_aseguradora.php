@@ -107,7 +107,7 @@
                                                     <tr>
 														<td align="right">Estado - ciudad de origen:</td>
 														<td align="left">
-															<select id="estado" name="estado" value="" class="form-control bfh-states" data-country="VE" data-state="LA"></select>
+															<select id="estado" name="estado" value="" class="form-control bfh-states" data-country="EC" data-state="LA"></select>
 														</td>
 														<td align="left"><span id="msg_estado"></span>&nbsp;</td>
 													</tr>
