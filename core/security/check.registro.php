@@ -130,7 +130,3 @@ if (!empty($_POST['registro']))
 }
 	 
 }
-
-
-
-?>
