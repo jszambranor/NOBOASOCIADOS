@@ -86,13 +86,6 @@
 														</td>
 														<td align="left"><span id="msg_nombre"></span>&nbsp;</td>
 													</tr> 
-                                                    <tr>
-														<td align="right">Rif - Seniat :</td>
-														<td align="left">
-															<input type="text" id="rif" name="rif" value="" onKeyPress="return SoloNumeros(event);" class="txtBox bfh-phone" data-format="-dddddddd">
-														</td>
-														<td align="left"><span id="msg_rif"></span>&nbsp;</td>
-													</tr>											 
 												 <tr>
 														<td align="right">Fecha de fundacion :</td>
 														<td align="left">
@@ -143,9 +136,9 @@
 													</tr>
                                                     
                                                     <tr>
-														<td align="right">Rif de cuenta bancaria  :</td>
+														<td align="right">cedula de cuenta bancaria  :</td>
 														<td align="left">
-															<input type="text" id="cedulacuentabancaria" name="cedulacuentabancaria" value="" class="txtBox bfh-phone" data-format="-dddddddd">
+															<input type="text" id="cedulacuentabancaria" name="cedulacuentabancaria" value="" class="txtBox bfh-phone" data-format="dddddddd">
 														</td>
 														<td align="left"><span id="msg_cedulacuentabancaria"></span>&nbsp;</td>
 													</tr>

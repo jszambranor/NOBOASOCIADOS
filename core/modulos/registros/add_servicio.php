@@ -211,7 +211,7 @@ foreach ($rows as $row){
 					 
                                                             
                                                                     <tr>
-														<td align="right">Monto en Bolivares:</td>
+														<td align="right">Monto en Dolares:</td>
 														<td align="left">
 															 <select required id="monto" name="monto" >                                       
                                                         <option value="10000">10000</option>
@@ -280,7 +280,7 @@ foreach ($rows as $row){
 $combobit="";   
 foreach ($rows as $row){
     $combobit.="->Seleccione:";    
-    $combobit.=" <option value='".$row['rif']."'>".$row['rif']."</option>"; 
+    $combobit.=" <option value='".$row['numero']."'>".$row['rif']."</option>"; 
 }
                                                
 ?>
@@ -288,9 +288,9 @@ foreach ($rows as $row){
                                                                
                                                             
                                                                   <tr>
-														<td align="right">RIF de la aseguradora:</td>
+														<td align="right">numero de la aseguradora:</td>
 														<td align="left">
-															 <select required id="rif_aseg" name="rif_aseg" >                                       
+															 <select required id="numero_aseg" name="numero_aseg" >                                       
                                                                                <option value="">
                                                                                    <?php echo $combobit; ?>
                                                                             </option>
@@ -367,7 +367,7 @@ foreach ($rows as $row){
 													<tr>
 														<td align="right">Telefono :</td>
 														<td align="left">
-															<input type="text" id="telefono" name="telefono" value="" class="txtBox bfh-phone" data-format="+58 (dddd) ddd-dddd">
+															<input type="text" id="telefono" name="telefono" value="" class="txtBox bfh-phone" data-format="+5893 (dddd) ddd-dddd">
 														</td>
 														<td align="left"><span id="msg_telefono"></span>&nbsp;</td>
 													</tr>

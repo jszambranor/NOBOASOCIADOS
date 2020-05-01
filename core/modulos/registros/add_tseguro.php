@@ -128,7 +128,7 @@
                                                         <tr>
                                                             <td align="right">Telefono :</td>
                                                             <td align="left">
-                                                                <input type="text" id="telefono" name="telefono" value="" class="txtBox bfh-phone" data-format="+58 (dddd) ddd-dddd"> </td>
+                                                                <input type="text" id="telefono" name="telefono" value="" class="txtBox bfh-phone" data-format="+593 (dddd) ddd-dddd"> </td>
                                                             <td align="left"><span id="msg_telefono"></span>&nbsp;</td>
                                                         </tr>
                                                         <tr>

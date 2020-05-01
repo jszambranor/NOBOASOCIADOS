@@ -114,7 +114,7 @@
                                                         <tr>
                                                             <td align="right">Telefono :</td>
                                                             <td align="left">
-                                                                <input type="text" id="telefono" name="telefono" value="" class="txtBox bfh-phone" data-format="+58 (dddd) ddd-dddd"> </td>
+                                                                <input type="text" id="telefono" name="telefono" value="" class="txtBox bfh-phone" data-format="+593 (dddd) ddd-dddd"> </td>
                                                             <td align="left"><span id="msg_telefono"></span>&nbsp;</td>
                                                         </tr>
                                                         <tr>
@@ -149,7 +149,7 @@ foreach ($rows as $row){
                                                                
                                                             
                                                                   <tr>
-														<td align="right">RIF de la aseguradora:</td>
+														<td align="right">rif de la aseguradora:</td>
 														<td align="left">
 															 <select required id="aseguradora_rif" name="aseguradora_rif" >                                       
                                                                                <option value="">

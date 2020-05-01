@@ -1,5 +1,5 @@
 <?php
-if (!defined('SRCP')) {
+if (!defined('SNAS')) {
     die("Logged Hacking attempt!");
 }
 if (!empty($_POST['login'])) {
@@ -17,7 +17,7 @@ if (!empty($_POST['cita'])) {
 	<head>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta charset="utf-8" />
-		<title>Entrar al sistema - SRCP</title>
+		<title>Entrar al sistema - SNAS</title>
 
 		<meta name="description" content="Panel de inicio de sesion" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
@@ -64,7 +64,7 @@ if (!empty($_POST['cita'])) {
 									<span class="red">Sistema: </span>
 									<span class="white" id="id-text2">ProSalud</span>
 								</h1>
-								<h4 class="blue" id="id-company-text">&copy;SPS 2017 </h4>
+								<h4 class="blue" id="id-company-text">&copy;SPS 2020 </h4>
 							</div>
 
 							<div class="space-6"></div>
