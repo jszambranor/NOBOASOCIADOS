@@ -1,5 +1,5 @@
 <?php
-if (! defined ( 'SNAS' )) {
+if (! defined ( 'SRCP' )) {
 	die ( "Logged Hacking attempt!" );
 }
 $data = getDataBySession($_COOKIE["session"],$db);

@@ -151,7 +151,7 @@ $query = "  SELECT  rif,
                                                                 <td align="left"><span id="msg_cuentabancaria"></span>&nbsp;</td>
                                                             </tr>
                                                             <tr>
-                                                                <td align="right">Rif de cuenta bancaria :</td>
+                                                                <td align="right">cedulas de cuenta bancaria :</td>
                                                                 <td align="left">
                                                                     <input type="text" id="cedulacuentabancaria" name="cedulacuentabancaria" value="<?php echo $row['cedulacuentabancaria'];   ?>" class="txtBox bfh-phone" data-format=" "> </td>
                                                                 <td align="left"><span id="msg_cedulacuentabancaria"></span>&nbsp;</td>

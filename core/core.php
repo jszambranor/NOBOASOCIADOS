@@ -1,6 +1,6 @@
 <?php
 
-if (!defined('SNAS')) {
+if (!defined('SRCP')) {
 	
 	die('Logged Hacking attempt!');
 	

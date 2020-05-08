@@ -161,12 +161,7 @@ $query = "  SELECT    cedula,
                                                             </span> </td>
                                                                 <td align="left"><span id="msg_fecharegistro"></span>&nbsp;</td>
                                                             </tr>
-                                                            <tr>
-                                                                <td align="right">Rif - Seniat de la empresa:</td>
-                                                                <td align="left">
-                                                                    <input type="text" id="aseguradora_rif" name="aseguradora_rif" value="<?php echo $row['aseguradora_rif'];   ?>" class="txtBox bfh-phone" data-format="dddddddd"> </td>
-                                                                <td align="left"><span id="msg_rif"></span>&nbsp;</td>
-                                                            </tr>
+                                                            <
                                                             <tr>
                                                                 <td align="right">Estatus del corredor:</td>
                                                                 <td align="left">
