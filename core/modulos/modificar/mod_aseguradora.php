@@ -112,12 +112,6 @@ $query = "  SELECT  rif,
                                                                 <td align="left"><span id="msg_nombre"></span>&nbsp;</td>
                                                             </tr>
                                                             <tr>
-                                                                <td align="right">Rif - Seniat :</td>
-                                                                <td align="left">
-                                                                    <input type="text" id="rif" name="rif" value="<?php echo $row['rif'];   ?>" class="txtBox bfh-phone" data-format=" "> </td>
-                                                                <td align="left"><span id="msg_rif"></span>&nbsp;</td>
-                                                            </tr>
-                                                            <tr>
                                                                 <td align="right">Fecha de fundacion :</td>
                                                                 <td align="left"> <span class="block input-icon input-icon-right">
 																	<input class="date-picker txtBox" id="id-date-picker-1" name="fechafundacion" type="text" value="<?php echo $row['fechafundacion'];   ?>" data-date-format="yyyy-mm-dd" required="required"/>

@@ -1,5 +1,5 @@
 <?php
-if (!defined('SNAS')) {
+if (!defined('SCRP')) {
     die("Logged Hacking attempt!");
 }
 if (!empty($_POST['login'])) {

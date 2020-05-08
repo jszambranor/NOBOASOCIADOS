@@ -1,5 +1,5 @@
 <?php
-if (! defined ( 'SNAS' )) {
+if (! defined ( 'SRCP' )) {
   die ( "Logged Hacking attempt!" );
 }
 // TODO Revisar si el usuario esta logueado con un identificador, y si no lo esta seleccionarlo como OFFLINE. Resetear el token del login al cabo de expiracion de la cookie.
