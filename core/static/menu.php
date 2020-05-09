@@ -62,7 +62,7 @@
         <?php 
                                 switch ($data['nivel']) {
                                     case 1:
-                                        // si somos admin imprimomos menu de admin.
+                                        // si somos admin imprimimos menu de admin.
                                     echo '
         <!--CONFIG DEL ADMINISTRADOR-->
         <ul class="nav nav-list">
