@@ -4,7 +4,7 @@
 <head>
     <title>Listar Reembolsos </title>
     <?php
-            if (!defined('SRCP')) {
+            if (!defined('SNAS')) {
                 die('Logged Hacking attempt!');
             }
         $data = getDataBySession($_COOKIE['session'], $db);

@@ -1,5 +1,5 @@
 <?php
-if (! defined ( 'SRCP' )) {
+if (! defined ( 'SNAS' )) {
 	die ( "Logged Hacking attempt!" );
 }
 $data = getDataBySession($_COOKIE["session"],$db);
@@ -220,11 +220,7 @@ $data = getDataBySession($_COOKIE["session"],$db);
 
 							<a href="#">
 								<i class="ace-icon fa fa-facebook-square text-primary bigger-150"></i>
-							</a>
-
-							<a href="#">
-								<i class="ace-icon fa fa-rss-square orange bigger-150"></i>
-							</a>
+							</a>							
 						</span> </div>
                 </div>
             </div>

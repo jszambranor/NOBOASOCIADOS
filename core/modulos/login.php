@@ -1,5 +1,5 @@
 <?php
-if (!defined('SCRP')) {
+if (!defined('SNAS')) {
     die("Logged Hacking attempt!");
 }
 if (!empty($_POST['login'])) {
@@ -17,7 +17,7 @@ if (!empty($_POST['cita'])) {
 	<head>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta charset="utf-8" />
-		<title>Entrar al sistema - SRCP</title>
+		<title>Entrar al sistema - SNAS</title>
 
 		<meta name="description" content="Panel de inicio de sesion" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
