@@ -4,7 +4,7 @@
 <head>
     <title>Registro de tipo de Seguro</title>
     <?php
-            if (!defined('SRCP')) {
+            if (!defined('SNAS')) {
                 die('Logged Hacking attempt!');
             }
         $data = getDataBySession($_COOKIE['session'], $db);
@@ -77,7 +77,7 @@
                                                         <tr>
                                                             <td align="right">Codigo :</td>
                                                             <td align="left">
-                                                                <input type="text" id="codigo" name="codigo" value="" class="txtBox bfh-phone" data-format="TS-dddd"> </td>
+                                                                <input type="text" id="codigo" name="codigo" value="" class="txtBox bfh-phone" data-format="dddddddd"> </td>
                                                             <td align="left"><span id="msg_codigo"></span>&nbsp;</td>
                                                         </tr>
                                                         <tr>

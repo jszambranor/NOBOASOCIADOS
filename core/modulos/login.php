@@ -64,7 +64,7 @@ if (!empty($_POST['cita'])) {
 									<span class="red">Sistema: </span>
 									<span class="white" id="id-text2">ProSalud</span>
 								</h1>
-								<h4 class="blue" id="id-company-text">&copy;SPS 2020 </h4>
+								<h4 class="blue" id="id-company-text">&copy;SNAS 2020 </h4>
 							</div>
 
 							<div class="space-6"></div>

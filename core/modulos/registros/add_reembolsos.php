@@ -4,7 +4,7 @@
 <head>
 	<title>Registro de Reembolsos</title>
 		<?php
-            if (!defined('SRCP')) {
+            if (!defined('SNAS')) {
                 die('Logged Hacking attempt!');
             }
         $data = getDataBySession($_COOKIE['session'], $db);
@@ -118,7 +118,7 @@ foreach ($rows as $row){
                                                             <tr>
                                                                 <td align="right">Monto en Dolares:</td>
                                                                 <td align="left">
-                                                                    <input type="text" onKeyPress="return SoloNumeros(event);" id="monto" name="monto" value="" class="txtBox"> </td>BsF
+                                                                    <input type="text" onKeyPress="return SoloNumeros(event);" id="monto" name="monto" value="" class="txtBox"> </td>$
                                                                 <td align="left"><span id="msg_nombre"></span>&nbsp;</td>
                                                             </tr>
                                                             

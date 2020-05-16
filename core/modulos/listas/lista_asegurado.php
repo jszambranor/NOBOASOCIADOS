@@ -5,7 +5,7 @@
     <title>Listar Asegurados </title>
     <?php
             //AQUI CHEQUEA SI TIENE LA SESION O NO
-            if (!defined('SRCP')) {
+            if (!defined('SNAS')) {
                 die('Logged Hacking attempt!');
             }
     //AQUI CAPTURA LA SESSION

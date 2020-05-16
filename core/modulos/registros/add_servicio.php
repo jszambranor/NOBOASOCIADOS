@@ -4,7 +4,7 @@
 <head>
 	<title>Registro de Reembolsos</title>
 		<?php
-if (!defined('SRCP')) {
+if (!defined('SNAS')) {
 
 	die('Logged Hacking attempt!');
 	
