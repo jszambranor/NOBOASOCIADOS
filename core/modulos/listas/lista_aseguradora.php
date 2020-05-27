@@ -48,7 +48,6 @@
                                                 <label class="pos-rel">
                                                     <input type="checkbox" class="ace" /> <span class="lbl"></span> </label>
                                             </th>
-                                            <th>Rif</th>
                                             <th>Nombre</th>
                                             <th>Cuenta Bancaria</th>
                                             <th>Telefono</th>
@@ -60,10 +59,7 @@
                                         <?php foreach ($rows as $row) {
                                                     ?>
                                             <tr>
-                                                <td></td>
-                                                <td>
-                                                    <?php echo $row['rif'];   ?>
-                                                </td>
+                                                <td></td>                                       
                                                 <td>
                                                     <?php echo $row['nombre'];  ?>
                                                 </td>

@@ -52,7 +52,7 @@ function modificar($var1, $var2, PDO $db){
             ':direccion' => $_POST['direccion'],
             ':fecharegistro' => $_POST['fecharegistro'],
             ':estatus' => $_POST['estatus'],
-            ':aseguradora_rif' => $_POST['aseguradora_rif'],
+            ':aseguradora_numero' => $_POST['aseguradora_numero'],
             ':cedula_old' => $var2
             );
         try {
@@ -103,7 +103,6 @@ function modificar($var1, $var2, PDO $db){
       case 'aseguradora':
          $query = '  UPDATE aseguradora   
                   SET 
-                          rif = :rif,
                           cuentabancaria = :cuentabancaria,
                           cedulacuentabancaria = :cedulacuentabancaria,
                           nombre = :nombre,
@@ -117,7 +116,6 @@ function modificar($var1, $var2, PDO $db){
                    WHERE rif = :cedula_old
                 ';
         $query_params = array(
-            ':rif' => $_POST['rif'],
             ':cuentabancaria' => $_POST['cuentabancaria'],
             ':cedulacuentabancaria' => $_POST['cedulacuentabancaria'],
             ':nombre' => $_POST['nombre'],

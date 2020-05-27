@@ -1,6 +1,5 @@
 <?php
-$query = "  SELECT  rif,
-                    cuentabancaria,
+$query = "  SELECT  cuentabancaria,
                     cedulacuentabancaria,
                     nombre,
                     direccion,

@@ -1,5 +1,5 @@
 <?php
-$query = "  SELECT           cedula,
+$query = "  SELECT              cedula,
                                 nombres,
                                 apellidos,                              
                                 telefono,                             

@@ -21,7 +21,7 @@ $query = "  SELECT    cedula,
                                 direccion,
                                 fecharegistro,
                                 estatus,
-                                aseguradora_rif                  
+                                aseguradora,                 
             FROM    corredor where cedula='$cedula'
          ";
     try{
@@ -139,7 +139,7 @@ $query = "  SELECT    cedula,
                                                             <tr>
                                                                 <td align="right">Telefono :</td>
                                                                 <td align="left">
-                                                                    <input type="text" id="telefono" name="telefono" value="<?php echo $row['telefono'];   ?>" class="txtBox bfh-phone" data-format="+593 (dddd) ddd-dddd"> </td>
+                                                                    <input type="text" id="telefono" name="telefono" value="<?php echo $row['telefono'];   ?>" class="txtBox EC-phone" data-format="+593 (dddd) ddd-dddd"> </td>
                                                                 <td align="left"><span id="msg_telefono"></span>&nbsp;</td>
                                                             </tr>
                                                             <tr>

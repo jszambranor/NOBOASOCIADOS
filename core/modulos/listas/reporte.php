@@ -58,10 +58,10 @@
                                             <tr>
                                                 <td></td>
                                                 <td>
-                                                    <?php echo $ganancia . " BSF"   ?>
+                                                    <?php echo $ganancia . " $ "   ?>
                                                 </td>
                                                 <td>
-                                                    <?php echo $pago_pendiente . " BSF"  ?>
+                                                    <?php echo $pago_pendiente . " $ "  ?>
                                                 </td>
                                                 <td>
                                                     <?php echo $servicio_activo ?>

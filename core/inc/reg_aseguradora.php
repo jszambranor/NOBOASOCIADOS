@@ -78,7 +78,6 @@ if (!defined('SNAS')) {
 
         /// Si todo pasa enviamos los datos a la base de datos mediante PDO para evitar Inyecciones SQL
         $query = '	INSERT INTO aseguradora (
-				                rif,
                                 cuentabancaria,
                                 cedulacuentabancaria,
                                 nombre,
@@ -90,7 +89,6 @@ if (!defined('SNAS')) {
                                 estado,
                                 fechafundacion
 				    ) VALUES (
-                                :rif,
                                 :cuentabancaria,
                                 :cedulacuentabancaria,
                                 :nombre,
@@ -104,7 +102,6 @@ if (!defined('SNAS')) {
 				            )
         		';
         $query_params = array(
-            ':rif' => $_POST['rif'],
             ':cuentabancaria' => $_POST['cuentabancaria'],
             ':cedulacuentabancaria' => $_POST['cedulacuentabancaria'],
             ':nombre' => $_POST['nombre'],

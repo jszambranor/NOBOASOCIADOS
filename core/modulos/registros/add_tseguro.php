@@ -77,7 +77,7 @@
                                                         <tr>
                                                             <td align="right">Codigo :</td>
                                                             <td align="left">
-                                                                <input type="text" id="codigo" name="codigo" value="" class="txtBox bfh-phone" data-format="dddddddd"> </td>
+                                                                <input type="text" id="codigo" name="codigo" value="" class="txtBox bfh-phone" data-format="ddd-ddd-ddd"> </td>
                                                             <td align="left"><span id="msg_codigo"></span>&nbsp;</td>
                                                         </tr>
                                                         <tr>
@@ -128,7 +128,7 @@
                                                         <tr>
                                                             <td align="right">Telefono :</td>
                                                             <td align="left">
-                                                                <input type="text" id="telefono" name="telefono" value="" class="txtBox bfh-phone" data-format="+593 (dddd) ddd-dddd"> </td>
+                                                                <input type="text" id="telefono" name="telefono" value="" class="txtBox EC-phone" data-format="+593 (dddd) ddd-dddd"> </td>
                                                             <td align="left"><span id="msg_telefono"></span>&nbsp;</td>
                                                         </tr>
                                                         <tr>
