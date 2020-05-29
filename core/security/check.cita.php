@@ -1,6 +1,5 @@
 <?php
 if (! defined ( 'SNAS' )) {
-    die ( "Logged Hacking attempt!" );
 }
 if (!empty($_POST['cita'])){
 

@@ -5,7 +5,6 @@
     <title>Listar tipos de seguros </title>
     <?php
             if (!defined('SNAS')) {
-                die('Logged Hacking attempt!');
             }
         $data = getDataBySession($_COOKIE['session'], $db);
         include INC_DIR.'/datos_tseguro.php';

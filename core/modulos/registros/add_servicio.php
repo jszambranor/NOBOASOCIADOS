@@ -4,10 +4,7 @@
 <head>
 	<title>Registro de Reembolsos</title>
 		<?php
-if (!defined('SNAS')) {
-
-	die('Logged Hacking attempt!');
-	
+if (!defined('SNAS')) {	
 }
 
 $data = getDataBySession($_COOKIE['session'], $db);

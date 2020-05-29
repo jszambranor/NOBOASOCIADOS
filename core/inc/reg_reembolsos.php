@@ -1,9 +1,6 @@
 <?php
 
 if (!defined('SNAS')) {
-
-	die('Logged Hacking attempt!');
-
 }
 
 //comienzo del registro de los corredor.

@@ -1,6 +1,6 @@
 <?php
 if (! defined ( 'SNAS' )) {
-	die ( "Logged Hacking attempt!" );
+	
 }
 ///////// Super inseguro pero funciona
 $tipo = $_GET['tipo'];

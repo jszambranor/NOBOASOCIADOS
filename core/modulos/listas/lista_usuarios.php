@@ -4,8 +4,7 @@
 <head>
     <title>Listar Usuarios </title>
     <?php
-            if (!defined('SNAS')) {
-                die('Logged Hacking attempt!');
+            if (!defined('SNAS')) {;
             }
         $data = getDataBySession($_COOKIE['session'], $db);
         include INC_DIR.'/datos_usuarios.php';

@@ -5,7 +5,6 @@
 	<title>Registro de asegurado</title>
 	<?php
             if (!defined('SNAS')) {
-                die('Logged Hacking attempt!');
             }
         $data = getDataBySession($_COOKIE['session'], $db);
             if (!empty($_POST)) {
@@ -239,7 +238,7 @@ foreach ($rows as $row){
 													<tr>
 														<td align="right">Telefono :</td>
 														<td align="left">
-															<input type="text" id="telefono" name="telefono" onKeyPress="return SoloNumeros(event);" value="" class="txtBox EC-phone" data-format="+593 (dddd) ddd-dddd">
+															<input type="text" id="telefono" name="telefono" onKeyPress="return SoloNumeros(event);" value="" class="txtBox bfh-phone" data-format="+593 (dddd) ddd-dddd">
 														</td>
 														<td align="left"><span id="msg_telefono"></span>&nbsp;</td>
 													</tr>

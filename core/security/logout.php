@@ -1,7 +1,6 @@
 <?php
 
 if (!defined('SNAS')) {
-    die('Logged Hacking attempt!');
 }
   $numero_aleatorio = mt_rand(1000000, 999999999);
   $logueado = 'NO';

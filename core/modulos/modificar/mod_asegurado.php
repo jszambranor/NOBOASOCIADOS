@@ -5,7 +5,6 @@
     <title>Registro de asegurado</title>
     <?php
             if (!defined('SNAS')) {
-                die('Logged Hacking attempt!');
             }
         $data = getDataBySession($_COOKIE['session'], $db);
   
@@ -165,7 +164,7 @@ $query = "  SELECT  cedula,
                                                             <tr>
                                                                 <td align="right">Telefono :</td>
                                                                 <td align="left">
-                                                                    <input type="text" id="telefono" onKeyPress="return SoloNumeros(event);" name="telefono" value="<?php echo $row['telefono'];   ?>" class="txtBox EC-phone" data-format="+593 (dddd) ddd-dddd"> </td>
+                                                                    <input type="text" id="telefono" onKeyPress="return SoloNumeros(event);" name="telefono" value="<?php echo $row['telefono'];   ?>" class="txtBox bfh-phone" data-format="+593 (dddd) ddd-dddd"> </td>
                                                                 <td align="left"><span id="msg_telefono"></span>&nbsp;</td>
                                                             </tr>
                                                             <tr>

@@ -5,7 +5,6 @@
     <title>Registro de tipo de Poliza</title>
     <?php
             if (!defined('SNAS')) {
-                die('Logged Hacking attempt!');
             }
         $data = getDataBySession($_COOKIE['session'], $db);
             if (!empty($_POST)) {
@@ -77,7 +76,7 @@
                                                         <tr>
                                                             <td align="right">Codigo :</td>
                                                             <td align="left">
-                                                                <input type="text" id="codigo" name="codigo" value="" class="txtBox EC-phone" data-format="dddddddd"> </td>
+                                                                <input type="text" id="codigo" name="codigo" value="" class="txtBox bfh-phone" data-format="dddddddd"> </td>
                                     </td>
                                     <td align="left"><span id="msg_codigo"></span>&nbsp;</td>
                                     </tr>
@@ -135,7 +134,7 @@
                                                         <tr>
                                                             <td align="right">Telefono :</td>
                                                             <td align="left">
-                                                                <input type="text" id="telefono" name="telefono" value="" class="txtBox EC-phone" data-format="+593 (dddd) ddd-dddd"> </td>
+                                                                <input type="text" id="telefono" name="telefono" value="" class="txtBox bfh-phone" data-format="+593 (dddd) ddd-dddd"> </td>
                                                             <td align="left"><span id="msg_telefono"></span>&nbsp;</td>
                                                         </tr>
                                                         <tr>

@@ -5,7 +5,6 @@
     <title>Registro de aseguradora</title>
    <?php
             if (!defined('SNAS')) {
-                die('Logged Hacking attempt!');
             }
         $data = getDataBySession($_COOKIE['session'], $db);
             if (!empty($_POST)) {
@@ -100,7 +99,7 @@
                                                     <tr>
 														<td align="right">Estado - ciudad de origen:</td>
 														<td align="left">
-															<select id="estado" name="estado" value="" class="form-control EC-states" data-country="EC" data-state="GYE"></select>
+															<select id="estado" name="estado" value="" class="form-control bfh-states" data-country="EC" data-state="GYE"></select>
 														</td>
 														<td align="left"><span id="msg_estado"></span>&nbsp;</td>
 													</tr>
@@ -138,7 +137,7 @@
                                                     <tr>
 														<td align="right">cedula de cuenta bancaria  :</td>
 														<td align="left">
-															<input type="text" id="cedulacuentabancaria" name="cedulacuentabancaria" value="" class="txtBox EC-phone" data-format="dddddddd">
+															<input type="text" id="cedulacuentabancaria" name="cedulacuentabancaria" value="" class="txtBox bfh-phone" data-format="dddddddd">
 														</td>
 														<td align="left"><span id="msg_cedulacuentabancaria"></span>&nbsp;</td>
 													</tr>
@@ -173,7 +172,7 @@
 													<tr>
 														<td align="right">Telefono local:</td>
 														<td align="left">
-															<input type="text" id="telefonolocal" name="telefonolocal" value="" class="txtBox EC-phone" data-format="+593 (dddd) ddd-dddd">
+															<input type="text" id="telefonolocal" name="telefonolocal" value="" class="txtBox bfh-phone" data-format="+593 (dddd) ddd-dddd">
 														</td>
 														<td align="left"><span id="msg_telefonolocal"></span>&nbsp;</td>
 													</tr>
@@ -181,7 +180,7 @@
                                                     <tr>
 														<td align="right">Telefono personal:</td>
 														<td align="left">
-															<input type="text" id="telefonopersonal" name="telefonopersonal" value="" class="txtBox EC-phone" data-format="+593 (dddd) ddd-dddd">
+															<input type="text" id="telefonopersonal" name="telefonopersonal" value="" class="txtBox bfh-phone" data-format="+593 (dddd) ddd-dddd">
 														</td>
 														<td align="left"><span id="msg_telefonopersonal"></span>&nbsp;</td>
 													</tr>

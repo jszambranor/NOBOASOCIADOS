@@ -6,7 +6,6 @@
     <?php
             //AQUI CHEQUEA SI TIENE LA SESION O NO
             if (!defined('SNAS')) {
-                die('Logged Hacking attempt!');
             }
     //AQUI CAPTURA LA SESSION
         $data = getDataBySession($_COOKIE['session'], $db);

@@ -5,7 +5,6 @@
     <title>Modificar aseguradora</title>
     <?php
             if (!defined('SNAS')) {
-                die('Logged Hacking attempt!');
             }
         $data = getDataBySession($_COOKIE['session'], $db);
   
@@ -121,7 +120,7 @@ $query = "  SELECT  cuentabancaria,
                                                             <tr>
                                                                 <td align="right">Estado de origen: :</td>
                                                                 <td align="left">
-                                                                    <select id="estado" name="estado" value="<?php echo $row['estado'];   ?>" class="form-control EC-states" data-country="EC" data-state="<?php echo $row['estado'];   ?>"></select>
+                                                                    <select id="estado" name="estado" value="<?php echo $row['estado'];   ?>" class="form-control bfh-states" data-country="EC" data-state="<?php echo $row['estado'];   ?>"></select>
                                                                 </td>
                                                                 <td align="left"><span id="msg_estatus"></span>&nbsp;</td>
                                                             </tr>
@@ -169,13 +168,13 @@ $query = "  SELECT  cuentabancaria,
                                                             <tr>
                                                                 <td align="right">Telefono local:</td>
                                                                 <td align="left">
-                                                                    <input type="text" id="telefonolocal" name="telefonolocal" value="<?php echo $row['telefonolocal'];   ?>" class="txtBox EC-phone" data-format="+593 (dddd) ddd-dddd"> </td>
+                                                                    <input type="text" id="telefonolocal" name="telefonolocal" value="<?php echo $row['telefonolocal'];   ?>" class="txtBox bfh-phone" data-format="+593 (dddd) ddd-dddd"> </td>
                                                                 <td align="left"><span id="msg_telefonolocal"></span>&nbsp;</td>
                                                             </tr>
                                                             <tr>
                                                                 <td align="right">Telefono personal:</td>
                                                                 <td align="left">
-                                                                    <input type="text" id="telefonopersonal" name="telefonopersonal" value="<?php echo $row['telefonopersonal'];   ?>" class="txtBox EC-phone" data-format="+593 (dddd) ddd-dddd"> </td>
+                                                                    <input type="text" id="telefonopersonal" name="telefonopersonal" value="<?php echo $row['telefonopersonal'];   ?>" class="txtBox bfh-phone" data-format="+593 (dddd) ddd-dddd"> </td>
                                                                 <td align="left"><span id="msg_telefonopersonal"></span>&nbsp;</td>
                                                             </tr>
                                                             <tr>

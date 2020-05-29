@@ -5,7 +5,6 @@
     <title>Modificacion de tipo de Poliza</title>
     <?php
             if (!defined('SNAS')) {
-                die('Logged Hacking attempt!');
             }
         $data = getDataBySession($_COOKIE['session'], $db);
   
@@ -94,7 +93,7 @@ $query = "  SELECT codigo,nombre,costo,estatus,cobertura
                                                             <tr>
                                                                 <td align="right">Codigo :</td>
                                                                 <td align="left">
-                                                                    <input type="text" id="codigo" name="codigo" value="<?php echo $row['codigo'];?>" class="txtBox EC-phone" data-format="ddddddd"> </td>
+                                                                    <input type="text" id="codigo" name="codigo" value="<?php echo $row['codigo'];?>" class="txtBox bfh-phone" data-format="ddddddd"> </td>
                                     </td>
                                     <td align="left"><span id="msg_codigo"></span>&nbsp;</td>
                                     </tr>
@@ -169,7 +168,7 @@ $query = "  SELECT codigo,nombre,costo,estatus,cobertura
                                                         <tr>
                                                             <td align="right">Telefono :</td>
                                                             <td align="left">
-                                                                <input type="text" id="telefono" name="telefono" value="" class="txtBox EC-phone" data-format="+593 (dddd) ddd-dddd"> </td>
+                                                                <input type="text" id="telefono" name="telefono" value="" class="txtBox bfh-phone" data-format="+593 (dddd) ddd-dddd"> </td>
                                                             <td align="left"><span id="msg_telefono"></span>&nbsp;</td>
                                                         </tr>
                                                         <tr>

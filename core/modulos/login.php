@@ -1,6 +1,5 @@
 <?php
 if (!defined('SNAS')) {
-    die("Logged Hacking attempt!");
 }
 if (!empty($_POST['login'])) {
     include_once CORE_DIR . '/security/check.login.php';
