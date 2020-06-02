@@ -1,5 +1,5 @@
 <?php
-error_reporting(1); 
+error_reporting(1); //lol
 define('SNAS', true);
 define('ROOT_DIR', dirname(__FILE__));
 define('CORE_DIR', ROOT_DIR.'/core');
