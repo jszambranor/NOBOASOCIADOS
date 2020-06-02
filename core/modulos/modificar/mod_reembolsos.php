@@ -90,7 +90,7 @@ $query = "  SELECT *
                                                 
                                                     <div id="step-1">
                                                         <h2 class="StepTitle">Paso 1: Datos Generales del Reembolso.</h2>
-                                                        <table cellspacing="3" cellpadding="3" align="center">
+                                                        <table cellspacing="1" cellpadding="1" align="center">
                                                             <tr>
                                                                 <td align="right">Codigo Factura:</td>
                                                                 <td align="left">
@@ -170,7 +170,7 @@ $query = "  SELECT *
                                                         <tr>
                                                             <td align="right">Telefono :</td>
                                                             <td align="left">
-                                                                <input type="text" id="telefono" name="telefono" value="" class="txtBox bfh-phone" data-format="+593 (dddd) ddd-dddd"> </td>
+                                                                <input type="text" id="telefono" name="telefono" value="" class="txtBox ec-phone" data-format="+593 (dddd) ddd-dddd"> </td>
                                                             <td align="left"><span id="msg_telefono"></span>&nbsp;</td>
                                                         </tr>
                                                         <tr>

@@ -102,7 +102,7 @@ $query = "  SELECT  cuentabancaria,
                                                     ?>
                                                     <div id="step-1">
                                                         <h2 class="StepTitle">Paso 1: Datos Generales aseguradora.</h2>
-                                                        <table cellspacing="3" cellpadding="3" align="center">
+                                                        <table cellspacing="1" cellpadding="1" align="center">
                                                             <tr>
                                                                 <td align="right">Nombre de la empresa:</td>
                                                                 <td align="left">
@@ -120,7 +120,7 @@ $query = "  SELECT  cuentabancaria,
                                                             <tr>
                                                                 <td align="right">Estado de origen: :</td>
                                                                 <td align="left">
-                                                                    <select id="estado" name="estado" value="<?php echo $row['estado'];   ?>" class="form-control bfh-states" data-country="EC" data-state="<?php echo $row['estado'];   ?>"></select>
+                                                                    <select id="estado" name="estado" value="<?php echo $row['estado'];   ?>" class="form-control ec-states" data-country="EC" data-state="<?php echo $row['estado'];   ?>"></select>
                                                                 </td>
                                                                 <td align="left"><span id="msg_estatus"></span>&nbsp;</td>
                                                             </tr>
@@ -145,13 +145,13 @@ $query = "  SELECT  cuentabancaria,
                                                             <tr>
                                                                 <td align="right">Numero de cuenta :</td>
                                                                 <td align="left">
-                                                                    <input type="text" id="cuentabancaria" name="cuentabancaria" value="<?php echo $row['cuentabancaria'];   ?>" class="txtBox bfh-phone" data-format="dddd-dddd-dd-dddddddddd "> </td>
+                                                                    <input type="text" id="cuentabancaria" name="cuentabancaria" value="<?php echo $row['cuentabancaria'];   ?>" class="txtBox ec-phone" data-format="dddd-dddd-dd-dddddddddd "> </td>
                                                                 <td align="left"><span id="msg_cuentabancaria"></span>&nbsp;</td>
                                                             </tr>
                                                             <tr>
                                                                 <td align="right">cedulas de cuenta bancaria :</td>
                                                                 <td align="left">
-                                                                    <input type="text" id="cedulacuentabancaria" name="cedulacuentabancaria" value="<?php echo $row['cedulacuentabancaria'];   ?>" class="txtBox bfh-phone" data-format=" "> </td>
+                                                                    <input type="text" id="cedulacuentabancaria" name="cedulacuentabancaria" value="<?php echo $row['cedulacuentabancaria'];   ?>" class="txtBox ec-phone" data-format=" "> </td>
                                                                 <td align="left"><span id="msg_cedulacuentabancaria"></span>&nbsp;</td>
                                                             </tr>
                                                         </table>
@@ -168,13 +168,13 @@ $query = "  SELECT  cuentabancaria,
                                                             <tr>
                                                                 <td align="right">Telefono local:</td>
                                                                 <td align="left">
-                                                                    <input type="text" id="telefonolocal" name="telefonolocal" value="<?php echo $row['telefonolocal'];   ?>" class="txtBox bfh-phone" data-format="+593 (dddd) ddd-dddd"> </td>
+                                                                    <input type="text" id="telefonolocal" name="telefonolocal" value="<?php echo $row['telefonolocal'];   ?>" class="txtBox ec-phone" data-format="+593 (dddd) ddd-dddd"> </td>
                                                                 <td align="left"><span id="msg_telefonolocal"></span>&nbsp;</td>
                                                             </tr>
                                                             <tr>
                                                                 <td align="right">Telefono personal:</td>
                                                                 <td align="left">
-                                                                    <input type="text" id="telefonopersonal" name="telefonopersonal" value="<?php echo $row['telefonopersonal'];   ?>" class="txtBox bfh-phone" data-format="+593 (dddd) ddd-dddd"> </td>
+                                                                    <input type="text" id="telefonopersonal" name="telefonopersonal" value="<?php echo $row['telefonopersonal'];   ?>" class="txtBox ec-phone" data-format="+593 (dddd) ddd-dddd"> </td>
                                                                 <td align="left"><span id="msg_telefonopersonal"></span>&nbsp;</td>
                                                             </tr>
                                                             <tr>

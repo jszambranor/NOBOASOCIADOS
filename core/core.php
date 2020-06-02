@@ -2,8 +2,6 @@
 
 if (!defined('SNAS')) {
 	
-	die('Logged Hacking attempt!');
-	
 }
 
 #include_once CORE_DIR.'/sys_config.php';
